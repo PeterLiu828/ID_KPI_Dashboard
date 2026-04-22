@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_NOTION_API_KEY": "@notion-api-key",
+    "VITE_NOTION_DATABASE_ID": "@notion-database-id"
+  }
+}
